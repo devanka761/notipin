@@ -33,11 +33,12 @@ Notipin.Alert({
 ```javascript
 Notipin.Prompt({
   msg: "TEKS KAMU DI SINI", // DEFAULT KOSONG
+  placeholder: "Tulis Sesuatu..", // PLACEHOLDER DI INPUT
+  max: 0, // JUMLAH (INTEGER) MAKSIMALVALUE -- DEFAULT 0 = UNSET
   yes: "OKE", // TULISAN DI TOMBOL YES
   no: "BATAL", // TULISAN DI TOMBOL NO
-  placeholder: "Tulis Sesuatu..", // PLACEHOLDER DI INPUT
-  onYes: () => { /* KODE DI SINI, DEFAULT KOSONG */ },
-  onNo: () => { /* KODE DI SINI, DEFAULT KOSONG */ }
+  onYes: (res) => { /* KODE DI SINI -- (res = value yang sudah diisi) */ },
+  onNo: () => { /* KODE DI SINI, DEFAULT KOSONG */ },
   type: "NORMAL", // NORMAL, DANGER, INFO, & BLUE -- DEFAULT NORMAL
   mode: "LIGHT", // LIGHT/DARK -- DEFAULT LIGHT
 })
