@@ -6,7 +6,12 @@ Letakkan tag script ini pada bagian sebelum penutup tag body
 ```html
 <script src="https://cdn.statically.io/gh/devanka761/notipin@main/src/all.min.js"></script>
 ```
+<hr>
 ## PENGGUNAAN
+Kita cukup gunakan interaksi yang akan dipakai.<br>
+contoh: ```Notipin.Alert({msg: Selamat Datang!});```<br>
+Tidak perlu menggunakan semua opsi, cuku pilih satu atau beberapa yang ingin dipakai seperti msg, type, mode atau yang lainnya.<br>
+Berikut beberapa opsi yang bisa digunakan
 > ### CONFIRM
 ```javascript
 Notipin.Confirm({
@@ -43,6 +48,7 @@ Notipin.Prompt({
   mode: "LIGHT", // LIGHT/DARK -- DEFAULT LIGHT
 })
 ```
+<hr>
 ## KOSTUMISASI
 > ### TEMPLATE WARNA SENDIRI
 > Setelah Meletakkan Script Instalasi, jalankan
