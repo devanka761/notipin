@@ -4,7 +4,7 @@ Sesuai keterangannya, notifin menghadirkan 3 jenis interaction box yang dapat di
 ## INSTALASI
 Letakkan tag script ini pada bagian sebelum penutup tag body
 ```html
-<script src="https://cdn.jsdelivr.net/gh/devanka761/notipin@main/src/all.min.js"></script>
+<script src="https://cdn.statically.io/gh/devanka761/notipin@main/src/all.min.js"></script>
 ```
 ## PENGGUNAAN
 > ### CONFIRM
