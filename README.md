@@ -39,6 +39,7 @@ Notipin.Prompt({
   msg: "TEKS KAMU DI SINI", // DEFAULT KOSONG
   placeholder: "Tulis Sesuatu..", // PLACEHOLDER DI INPUT
   max: 0, // JUMLAH (INTEGER) MAKSIMALVALUE -- DEFAULT 0 = UNSET
+  textarea: false, // false = input tag || true = textarea tag
   yes: "OKE", // TULISAN DI TOMBOL YES
   no: "BATAL", // TULISAN DI TOMBOL NO
   onYes: (res) => { /* KODE DI SINI -- (res = value yang sudah diisi) */ },
