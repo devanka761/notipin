@@ -9,14 +9,14 @@ Letakkan tag script ini pada bagian sebelum penutup tag body
 ## PENGGUNAAN
 Kita cukup gunakan interaksi yang akan dipakai.<br>
 contoh: ```Notipin.Alert({msg: Selamat Datang!});```<br>
-Tidak perlu menggunakan semua opsi, cuku pilih satu atau beberapa yang ingin dipakai seperti msg, type, mode atau yang lainnya.<br>
+Tidak perlu menggunakan semua opsi, cukup pilih satu atau beberapa yang ingin dipakai seperti msg, type, mode atau yang lainnya.<br>
 Berikut beberapa opsi yang bisa digunakan
 > ### CONFIRM
 ```javascript
 Notipin.Confirm({
   msg: "TEKS KAMU DI SINI", // DEFAULT KOSONG
-  yes: "IYA", // TULISAN DI TOMBOL YES
-  no: "TIDAK", // TULISAN DI TOMBOL NO
+  yes: "OKE", // TULISAN DI TOMBOL YES
+  no: "BATAL", // TULISAN DI TOMBOL NO
   onYes: () => { /* KODE DI SINI, DEFAULT KOSONG */ },
   onNo: () => { /* KODE DI SINI, DEFAULT KOSONG */ },
   type: "NORMAL", // NORMAL, DANGER, INFO, & BLUE -- DEFAULT NORMAL
