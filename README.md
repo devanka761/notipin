@@ -112,5 +112,6 @@ Notipin.Prompt({
 [SUBSCRIBE DEVANKA761 :V](https://www.youtube.com/c/RG761)
 
 My Other Projects:
-1. [D-Audio (Custom Audio Tag Design)](https://github.com/devanka761/d-audio)
-2. [KIRIMIN (Advanced Chat App)](https://github.com/devanka761/chat-app)
+1. [Font Awesome Pro (v6.1.1)](https://devanka761.github.io/font-awesome-pro)
+2. [D-Audio (Custom Audio Tag Design)](https://github.com/devanka761/d-audio)
+3. [KIRIMIN (Advanced Chat App)](https://github.com/devanka761/chat-app)
