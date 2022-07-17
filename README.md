@@ -48,7 +48,7 @@ Notipin.Prompt({
   mode: "LIGHT", // LIGHT/DARK -- DEFAULT LIGHT
 })
 ```
-## KOSTUMISASI
+## KOSTUMISASI (OPSIONAL)
 > ### TEMPLATE WARNA SENDIRI
 > Setelah Meletakkan Script Instalasi, jalankan
 > ```javascript
