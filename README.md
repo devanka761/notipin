@@ -33,7 +33,7 @@ Notipin.Confirm({
 "no" tidak wajib - default tulisan: "CANCEL"
 "onYes & onNo" tidak wajib - default tidak terjadi apa-apa
 "type" tidak wajib - pilihan: normal, danger, info, blue - default normal
-"mode" tidak wajib - pilihan: light, dark - default dark
+"mode" tidak wajib - pilihan: light, dark - default light
 */
 ```
 > ### ALERT
@@ -50,7 +50,7 @@ Notipin.Alert({
 "yes" tidak wajib - default tulisan: "OK"
 "onYes" tidak wajib - default tidak terjadi apa-apa
 "type" tidak wajib - pilihan: normal, danger, info, blue - default normal
-"mode" tidak wajib - pilihan: light, dark - default dark
+"mode" tidak wajib - pilihan: light, dark - default light
 */
 ```
 > ### PROMPT
@@ -87,7 +87,7 @@ Notipin.Prompt({
 - contoh onYes: (res) => console.log(res) -
 
 "type" tidak wajib - pilihan: normal, danger, info, blue - default normal
-"mode" tidak wajib - pilihan: light, dark - default dark
+"mode" tidak wajib - pilihan: light, dark - default light
 */
 ```
 ## KOSTUMISASI (OPSIONAL)
