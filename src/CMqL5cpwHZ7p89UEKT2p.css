@@ -1,0 +1,22 @@
+:root {
+    --notifinBg: transparent;
+    --notifinBoxLight: #dedededd;
+    --notifinBoxDark: #333333dd;
+
+    --notifinMainLightNormal: #fa0;
+    --notifinMainLightDanger: #d55;
+    --notifinMainLightInfo: #8c8;
+    --notifinMainLightBlue: #8ac;
+    
+    --notifinMsgLight: #2b2b2b;
+    --notifinMsgDark: #eee;
+    --notifinBtnText: #fff;
+    --notifinBtnBgNo: #1a1a1a;
+    
+    --notifinSymbolNormal: #fa0;
+    --notifinSymbolDanger: #fa0;
+    --notifinSymbolInfo: #fa0;
+    --notifinSymbolBlue: #8ac;
+    
+    --notifinBtnAlert: #1a1a1a;
+}
