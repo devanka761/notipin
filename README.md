@@ -127,17 +127,20 @@ Notipin.Prompt({
 > ```javascript
 > Notipin.fullCustom();
 > ```
-> Element untuk yang dipakai di dalam Notipin:
-> ```css
-> div.Notipin
->   div.box
->       div.symbol
->       div.msg
->       input
->       textarea
->       div.buttons /* ada huruf 's'*/
->           div.btn.confirm.no
->           div.btn.confirm.yes
+> Dengan begitu, kalian bisa bebas sesuka hati untuk mendesain setiap elementnya. Berikut list element yang ada di dalam Notipin beserta urutuannya:
+> ```scss
+> div.Notipin {
+>   div.box {
+>     div.symbol { }
+>     div.msg { }
+>     input { }
+>     textarea { }
+>     div.buttons {
+>       div.btn.confirm.no { }
+>       div.btn.confirm.yes { }
+>     }
+>   }
+> }
 > ```
 
 > ### GANTI FONT NOTIPIN
