@@ -1,13 +1,30 @@
 # NOTIPIN
 ### Ganti Alert, Confirm, & Prompt kamu menjadi lebih menarik versi Notipin!
 Sesuai keterangannya, notifin menghadirkan 3 jenis interaction box yang dapat digunakan. Yuk, simak cara pemakaiannya!
+
+## DAFTAR ISI
+- [Instalasi](#instalasi)
+  - [Cara Pakai](#penggunaan)
+    - [Confirm](#confirm)
+    - [Alert](#alert)
+    - [Prompt](#prompt)
+    - [File Input | ***NEW*** v1.25.10](#file-input)
+  - [Custom Design](#kostumisasi-opsional)
+    - [Custom Template](#template-warna-sendiri)
+    - [Custom Fonts](#ganti-font-notipin)
+    - [Fully Custom CSS](#full-mentahan-tanpa-css)
+- [Change Log](#change-log)
+
 ## INSTALASI
+> Terima kasih kepada mas [Frans Allen](https://github.com/fransallen) yang telah menyediakan [statically.io](https://statically.io/) untuk meng-*generate* CDN dari github.
+
+### Versi: 1.25.10
+
 Letakkan tag script ini pada bagian sebelum penutup tag body
-### Versi: 1.24.49
 ```html
-<script src="https://cdn.statically.io/gh/devanka761/notipin/v1.24.49/all.js"></script>
+<script src="https://cdn.statically.io/gh/devanka761/notipin/v1.25.10/all.js"></script>
 ```
-> Silakan update ke versi 1.24.49 jika menggunakan versi lama agar bisa menggunakan fitur-fitur terbaru dan mendapat perbaikan bug dari versi sebelum-sebelumnya.
+> Silakan update ke versi 1.25.10 jika menggunakan versi lama agar bisa menggunakan fitur-fitur terbaru dan mendapat perbaikan bug dari versi sebelum-sebelumnya.
 ## PENGGUNAAN
 Kita cukup gunakan interaksi yang akan dipakai.<br>
 contoh: ```Notipin.Alert({msg: "Selamat Datang!"});```<br>
@@ -90,6 +107,40 @@ Notipin.Prompt({
 "mode" tidak wajib - pilihan: light, dark - default light
 */
 ```
+> ### FILE INPUT
+```javascript
+Notipin.File({
+  msg: "TEKS KAMU DI SINI", // Pesan kamu
+  accept: "ALL", // Tipe File (ex: "image/*")
+  yes: "OKE", // Tulisan di tombol 'Yes'
+  no: "BATAL", // Tulisan di tombol 'No'
+  onYes: (file) => { /* Kode di sini */ },
+  onNo: (file) => { /* Kode di sini */ },
+  type: "NORMAL",
+  mode: "LIGHT",
+})
+/* keterangan:
+"msg" wajib digunakan
+
+"yes" tidak wajib - default: "OK"
+"no" tidak wajib - default: "CANCEL"
+
+"accept" tidak wajib - default: semua jenis file
+- tambahkan jika ingin menentukan tipe file
+- contoh: "image/*", "audio/*", atau tipe lain
+
+"onYes & onNo" tidak wajib - default tidak terjadi apa-apa
+- gunakan parameter untuk mengambil hasil filenya -
+- contoh..
+  onYes: (file) => {
+    upload(file);
+    console.log("Berhasil Mengunggah " + file.name)
+  }
+
+"type" tidak wajib - pilihan: normal, danger, info, blue - default normal
+"mode" tidak wajib - pilihan: light, dark - default light
+*/
+```
 ## KOSTUMISASI (OPSIONAL)
 > ### TEMPLATE WARNA SENDIRI
 > Setelah Meletakkan Script Instalasi, jalankan
@@ -164,3 +215,22 @@ My Other Projects:
 3. [Kirimin (Live Chat App)](https://github.com/devanka761/chat-app)
 4. [Ucapin (Kartu Ucapan)](https://github.com/devanka761/ucapin)
 5. [Notipin (Custom Alert, Confirm, Prompt)](https://github.com/devanka761/notipin)
+
+## CHANGE LOG
+- v1.0.0 (No Longer Maintained)
+  - First Creation of Custom Alert, Confirm, Prompt
+  - First Feature of Customize Color Template
+- v1.21.04
+  - Redesign All Type
+  - Added Fully Customize CSS
+  - Minor Bugs Fixed
+- v1.24.49
+  - Added Custom Fonts
+  - Use Callback on *onNo* function at Custom Prompt
+  - Options to choose between textarea or input on Custom Prompt
+  - Major & Minor Bugs Fixed
+- v1.25.10
+  - Added Custom File Input
+  - Optimize Mobile Friendly
+  - Minor Bugs Fixed
+- Please request new features for upcoming update
