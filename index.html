@@ -20,27 +20,13 @@
 
     <script src="./all.js"></script>
     <script>
-        function notifin() {
-            Notipin.Confirm({
-                msg: "Kamu Akan Diminta Untuk Mengisi Beberapa Hal Berikut<br>Setuju?",
-                type: "danger",
-                mode: "dark",
-                onYes: () => {
-                    Notipin.File({
-                        msg: "Siapa Nama Kamu?",
-                        mode: "dark",
-                        type: "info",
-                        onYes: (res) => {
-                            Notipin.Alert({
-                                msg: `Nama Kamu Adalah ${res.name}`,
-                                mode: "dark",
-                                type: "info",
-                            })
-                        }
-                    })
-                }
-            })
-        }
+
+        // function notifin() {
+        //     Notipin.Alert({msg: "Tes", onYes: () => Notipin.Alert('Selesai')});
+        // }
+        // function notifin() {
+        //     Notipin.Alert('Nyoba');
+        // }
     </script>
 </body>
 
