@@ -18,21 +18,22 @@ Sesuai keterangannya, notifin menghadirkan 3 jenis interaction box yang dapat di
 ## INSTALASI
 > Terima kasih kepada mas [Frans Allen](https://github.com/fransallen) yang telah menyediakan [statically.io](https://statically.io/) untuk meng-*generate* CDN dari github.
 
-### Versi: 1.25.10
+### Versi: 1.26.00
 
 Letakkan tag script ini pada bagian sebelum penutup tag body
 ```html
-<script src="https://cdn.statically.io/gh/devanka761/notipin/v1.25.10/all.js"></script>
+<script src="https://cdn.statically.io/gh/devanka761/notipin/v1.26.00/all.js"></script>
 ```
 > Silakan update ke versi 1.25.10 jika menggunakan versi lama agar bisa menggunakan fitur-fitur terbaru dan mendapat perbaikan bug dari versi sebelum-sebelumnya.
 ## PENGGUNAAN
 Kita cukup gunakan interaksi yang akan dipakai.<br>
 contoh: ```Notipin.Alert({msg: "Selamat Datang!"});```<br>
 Tidak perlu menggunakan semua opsi, cukup pilih satu atau beberapa yang ingin dipakai seperti msg, type, mode atau yang lainnya.<br>
-
 > Kapitalisasi juga berpengaruh ya.. Selamat mencoba!
 
-Berikut beberapa opsi yang bisa digunakan
+***Khusus pengguna 1.26 ke atas, alert bisa menggunakan 1 parameter non object.***<br>
+contoh: ```Notipin.Alert('Selamat Datang!');```
+
 > ### CONFIRM
 ```javascript
 Notipin.Confirm({
@@ -232,5 +233,8 @@ My Other Projects:
 - v1.25.10
   - Added Custom File Input
   - Optimize Mobile Friendly
+  - Minor Bugs Fixed
+- v1.26.00
+  - Alert is now working like default js's alert (without object)
   - Minor Bugs Fixed
 - Please request new features for upcoming update
