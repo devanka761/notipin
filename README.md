@@ -24,7 +24,7 @@ Letakkan tag script ini pada bagian sebelum penutup tag body
 ```html
 <script src="https://cdn.statically.io/gh/devanka761/notipin/v1.26.00/all.js"></script>
 ```
-> Silakan update ke versi 1.25.10 jika menggunakan versi lama agar bisa menggunakan fitur-fitur terbaru dan mendapat perbaikan bug dari versi sebelum-sebelumnya.
+> Silakan update ke versi 1.26.00 jika menggunakan versi lama agar bisa menggunakan fitur-fitur terbaru dan mendapat perbaikan bug dari versi sebelum-sebelumnya.
 ## PENGGUNAAN
 Kita cukup gunakan interaksi yang akan dipakai.<br>
 contoh: ```Notipin.Alert({msg: "Selamat Datang!"});```<br>
